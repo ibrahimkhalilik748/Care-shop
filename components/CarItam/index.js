@@ -1,19 +1,21 @@
 import React from 'react';
 import styles from './styles'
-import { Image, ImageBackground, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
+import { ImageBackground, Text, View } from 'react-native';
+import StyleButton from '../StyleButton';
 
- const carItam = (props) => {
+const CarItam = (props) => {
   return (
-      <View style={styles.carContainer}>
-        <ImageBackground
-        source={require('../images/ModelX.jpeg')} 
+    <View style={styles.carContainer}>
+      <ImageBackground
+        source={require('../images/ModelX.jpeg')}
         style={styles.image}
-        />
-        <View style={styles.titles}>
-          <Text style={styles.title}>Model S</Text>
-          <Text style={styles.subTitle}>Starting at $69.420</Text>
-        </View>
+      />
+      <View style={styles.titles}>
+        <Text style={styles.title}>Model S</Text>
+        <Text style={styles.subTitle}>Starting at $69.420</Text>
       </View>
+      <StyleButton />
+    </View>
   );
 }
-export default carItam;
+export default CarItam;
