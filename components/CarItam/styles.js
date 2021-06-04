@@ -9,6 +9,8 @@ const styles = StyleSheet.create({
     width: '100%',
     marginTop: '30%',
     textAlign: 'center',
+    justifyContent: 'center',
+    alignItems: 'center'
   },
   title: {
     fontSize: 40,
@@ -24,7 +26,7 @@ const styles = StyleSheet.create({
   image: {
     width: '100%',
     height: '100%',
-    resize: 'cover',
+    // resize: 'cover',
     position: 'absolute',
   },
   buttonsContainer: {
