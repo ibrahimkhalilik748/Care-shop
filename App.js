@@ -6,8 +6,13 @@ import CarItam from './components/CarItam';
 export default function App() {
   return (
     <View style={styles.container}>
-      
-      <CarItam />
+
+      <CarItam
+        name={'Type 3'}
+        tagline={'Order Online for'}
+        taglineCTA={'Touchless Delivery'}
+        image={require('./components/images/Model3.jpeg')}
+      />
 
 
     </View >
