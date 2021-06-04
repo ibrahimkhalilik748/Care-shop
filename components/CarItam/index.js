@@ -14,7 +14,21 @@ const CarItam = (props) => {
         <Text style={styles.title}>Model S</Text>
         <Text style={styles.subTitle}>Starting at $69.420</Text>
       </View>
-      <StyleButton />
+      <StyleButton
+          type="primary"
+          content={"Custom Order"}
+          onPress={() => {
+            console.warn("Custom Order was pressed");
+          }}
+        />
+
+        <StyleButton
+          type="secondary"
+          content={"Existing Inventory"}
+          onPress={() => {
+            console.warn("Existing Inventory was pressed");
+          }}
+        />
     </View>
   );
 }
