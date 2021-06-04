@@ -27,6 +27,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "A car-shop application builds on React-Native. You can see available cars using this app."
   }
 }
