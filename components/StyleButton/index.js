@@ -13,7 +13,7 @@ const StyleButton = (props) => {
             <Pressable
                 style={[styles.button, { backgroundColor: backgroundColor }]}
                 onPress={() => {
-                    console.warn('hello there')
+                    console.warn(`${content} button clicked`)
                 }}
             >
                 <Text style={[styles.text, { color: textColor }]}>{content}</Text>
